@@ -1,0 +1,6 @@
+src/not_parse_words.txt
+src/jsons/words_meaning.json
+src/templates/generated
+venv
+clean.txt
+.idea

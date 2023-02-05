@@ -1,0 +1,41 @@
+<div class="meaning-first-lang">
+                        {% for partOfSpeech, exampleList in result.partsOfSpeech.items() %}
+                        {% if exampleList %}
+                        <h2 class="sub-title title-bottom">{{partOfSpeech}}</h2>
+                        {% endif %}
+                        {% for example in exampleList %}
+                        <div class="meaning-item">
+                            <p class="meaning-text">
+                                <strong>{{loop.index}})</strong> {{example.meaning}}
+                            </p>
+                            {% if example.syn %}
+                            <div class="meaning-syn">
+                                <strong style="color: forestgreen">Synonyms: </strong>
+                                {% for syn in example.syn %}
+                                <a href="{{url_prefix}}{{syn}}.html" class="word-link">{{syn}}</a>
+                                {% endfor %}
+                            </div>
+                            {% endif %}
+                            {% if example.ant %}
+                            <div class="meaning-syn">
+                                <strong style="color: forestgreen">Antonyms: </strong>
+                                {% for syn in example.ant %}
+                                <a href="{{url_prefix}}{{ant}}.html" class="word-link">{{syn}}</a>
+                                {% endfor %}
+                            </div>
+                            {% endif %}
+                            {% if example.example %}
+                            <h3><ul class="meaning-list">Examples:</ul></h3>
+                            {% for item in example.example %}
+                            <li>
+                                {{item}}
+                            </li>
+                            {% endfor %}
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                        {% endfor %}
+                    </div>
+
+
+

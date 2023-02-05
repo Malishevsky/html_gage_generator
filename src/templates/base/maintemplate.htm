@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="{{general.fromlangCode}}" dir="{{general.from_dir}}">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="../../../static/img/favicon.ico" type="image/x-icon">
+
+    <link rel="alternate" hreflang="x-default" href="lingvanex.com/dictionary/english/window">
+    <link
+            rel="alternate"
+            hreflang="{{general.fromlangCode}}"
+            href="{{general.baseSiteUrl}}/translation/{{url.path}}"
+    />
+    <link
+            rel="alternate"
+            hreflang="{{general.tolangCode}}"
+            href="{{general.baseSiteUrl}}/translation/{{general.reversePath}}"
+    />
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description.text}}"/>
+    <link rel="canonical" href="{{general.baseSiteUrl}}/dictionary/{{url.path}}"/>
+    <meta property="og:locale" content="{{general.fromlangCode}}"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="{{meta_title}}"/>
+    <meta property="og:description" content="{{meta_description.text}}"/>
+    <meta property="og:url" content="{{general.baseSiteUrl}}/translation/{{url.path}}"/>
+    <meta property="og:site_name" content="Lingvanex"/>
+    <meta property="article:publisher" content="https://www.facebook.com/lingvanex"/>
+    <meta property="og:image" content="../sources/{{fileAliases['img/logo_512.jpg']}}"/>
+    <meta property="og:image:width" content="512"/>
+    <meta property="og:image:height" content="512"/>
+    <meta property="og:image:type" content="image/jpeg"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="{{meta_title.text}}"/>
+    <meta name="twitter:description" content="{{meta_description.text}}"/>
+    <meta name="twitter:image" content="../sources/{{fileAliases['img/logo_512.jpg']}}"/>
+    <meta name="twitter:site" content="@lingvanex"/>
+    <meta name="twitter:label1" content="Est. reading time"/>
+    <meta name="twitter:data1" content="4 minutes"/>
+    <link rel="preconnect" href="{{general.baseSiteUrl}}/translation/{{url.path}}"/>
+    <link rel="dns-prefetch" href="{{general.baseSiteUrl}}/translation/{{url.path}}"/>
+    <!--    <script type="application/ld+json" class="yoast-schema-graph">{{yoastSchemaGraph | safe}}</script>-->
+    <link rel="stylesheet" type="text/css" href="../../../static/style-template.css"/>
+</head>
+<body>
+<main>
+    <div class="container">
+
+        <!-- <ins
+          class="adsbygoogle"
+          style="
+            display:block;
+          "
+          data-ad-client="ca-pub-6440403832191947"
+          data-ad-slot="5489139365"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script> -->
+
+        <ul class="breadcrumbs">
+            <li><a class="breadcrumbs-link" href="{{url_main_page}}">Home page</a></li>
+            <li class="breadcrumbs-angle">>><li>
+            <li><a class="breadcrumbs-link" href="{{url_dictionary}}">Dictionary</a></li>
+            <li class="breadcrumbs-angle">>></li>
+            <li><a>Translation of "{{result.word}}" in Russian</a></li>
+        </ul>
+
+        <section class="section-wrap">
+            <div class="banner">
+                <h2 class="banner-title sub-title">Install and try the Lingvanex translation app for free!</h2>
+                <p class="banner-btn-wrap">
+                    <a
+                            class="banner-btn"
+                            href=""
+                    >download for<span class="banner-platform"></span></a
+                    >
+                </p>
+            </div>
+        </section>
+
+        <h1 class="main-title main-title-block">Translation of "{{result.word}}" in Russian</h1>
+        <section class="section-wrap section-margin">
+            <div class="meaning">
+                <div class="meaning-leng">
+                    <h2 class="title">{{result.word}}</h2>
+                    <div class="meaning-inner">
+                        <p class="meaning-transcription">{{result.transcription}}</p>
+                        <button class="meaning-listen"></button>
+                        <div>
+                            <audio id="audio_uk" preload="auto">
+                                <source src="{{result.audio}}"
+                                        type="audio/mpeg">
+                            </audio>
+                            <span class="sound_pic" onclick="document.getElementById('audio_uk').play();">
+                            <svg
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <mask
+                                        id="mask0_1600:1640"
+                                        style="mask-type: alpha"
+                                        maskUnits="userSpaceOnUse"
+                                        x="0"
+                                        y="0"
+                                        width="24"
+                                        height="24"
+                                >
+                                    <rect
+                                            x="0.5"
+                                            y="0.5"
+                                            width="23"
+                                            height="23"
+                                            fill="#C4C4C4"
+                                            stroke="#B9C4D2"
+                                    />
+                                </mask>
+                                <g mask="url(#mask0_1600:1640)">
+                                    <path
+                                            d="M3 14.6923H5.03608C5.25589 14.6923 5.46957 14.7647 5.64408 14.8984L10.3044 18.4673C10.7025 18.7722 11.2552 18.7241 11.518 18.2971C12.1106 17.3344 13 15.3342 13 12C13 8.66579 12.1106 6.66561 11.518 5.70294C11.2552 5.2759 10.7025 5.2278 10.3044 5.53269L5.64408 9.10163C5.46957 9.23527 5.25589 9.30769 5.03608 9.30769H3C2.44772 9.30769 2 9.75541 2 10.3077V13.6923C2 14.2446 2.44772 14.6923 3 14.6923Z"
+                                            stroke="#B9C4D2"
+                                            stroke-width="2"
+                                    />
+                                    <path
+                                            d="M19 5C19 5 21 7 21 12C21 17 19 19 19 19"
+                                            stroke="#B9C4D2"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                    />
+                                    <path
+                                            d="M16 8C16 8 17 9 17 12C17 15 16 16 16 16"
+                                            stroke="#B9C4D2"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                    />
+                                </g>
+                            </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <p class="meaning-text">Translation of "{{result.word}}" in Russian</p>
+                </div>
+
+                <div class="meaning-translator">
+                    <div class="meaning-first-lang">
+                        {% for partOfSpeech, exampleList in result.partsOfSpeech.items() %}
+                        {% if exampleList %}
+                        <h2 class="sub-title title-bottom">{{partOfSpeech}}</h2>
+                        {% endif %}
+                        {% for example in exampleList %}
+                        <div class="meaning-item">
+                            <p class="meaning-text">
+                                <strong>{{loop.index}}) </strong> {{example.meaning}}
+                            </p>
+                            {% if example.syn %}
+                            <div class="meaning-syn">
+                                <strong style="color: forestgreen">Synonyms: </strong>
+                                {% for syn in example.syn %}
+                                <a href="{{url_prefix}}{{syn}}.html" class="word-link">{{syn}}</a>
+                                {% endfor %}
+                            </div>
+                            {% endif %}
+                            {% if example.ant %}
+                            <div class="meaning-syn">
+                                <strong style="color: forestgreen">Antonyms: </strong>
+                                {% for syn in example.ant %}
+                                <a href="{{url_prefix}}{{ant}}.html" class="word-link">{{syn}}</a>
+                                {% endfor %}
+                            </div>
+                            {% endif %}
+                            {% if example.example %}
+                            <h3><ul class="meaning-list">Examples:</ul></h3>
+                            {% for item in example.example %}
+                            <li>
+                                {{item}}
+                            </li>
+                            {% endfor %}
+                            {% endif %}
+                        </div>
+
+                        {% endfor %}
+
+                        {% endfor %}
+                    </div>
+
+                    {{translation}}
+                </div>
+
+                {% block translate %}{% endblock %}
+                <div>
+                    {% block top %}{% endblock %}
+                </div>
+            </div>
+        </section>
+
+
+        <div class="text-inner-translation">
+            <p class="text-translation">
+                {{translation.text}}
+            </p>
+        </div>
+    </div>
+
+</main>
+<script src="../../../static/jquery.js"></script>
+<script src="../../../static/script-footer.js"></script>
+<script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6440403832191947"
+        crossorigin="anonymous"></script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@graph": [
+            {
+                "@id": "http://example.org/go.html",
+                "@type": "Book",
+                "author": {
+                    "@id": "https://lingvanex.com/"
+                },
+                "inLanguage": "en",
+                "name": "Noun",
+                "workTranslation": {
+                    "@type": "Book",
+                    "@id": "http://example.org/entity/work/id/460647"
+                }
+            },
+            {
+                "@id": "http://example.org/entity/work/id/460647",
+                "@type": "Book",
+                "about": "Psychological fiction, French",
+                "author": {
+                    "@id": "https://lingvanex.com/"
+                },
+                "inLanguage": "ru",
+                "name": "Cуществительное",
+                "translationOfWork": {
+                    "@id": "http://example.org/entity/work/id/2292573321"
+                },
+                "translator": {
+                    "@id": "https://lingvanex.com/demo/"
+                }
+            }
+        ]
+    }
+</script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https://example.com/",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://example.com/?s={search_term_string}"
+            },
+            "query-input": "name=search_term_string"
+        }
+    }
+</script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "WebPage",
+        "name": "Name page",
+        "speakable": {
+            "@type": "SpeakableSpecification",
+            "xPath": [
+                "/html/head/title",
+                "/html/head/meta[@name='description']/@content"
+            ]
+        },
+        "url": "https://example.com/"
+    }
+</script>
+</body>
+</html>
+
+

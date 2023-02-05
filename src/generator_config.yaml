@@ -1,0 +1,12 @@
+#исходный язык
+source: en
+#целевой язык
+target: ru
+# тут не меняем
+translateMode: html
+# путь к каталогу generated, временно закоменчен
+#url_prefix: 'file:///home/sereega/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/project/description-words/src/templates/generated/'
+#токен для переводчика
+api_token: a_5YN44RErURuq4lTl8ZdCeq0OwvIjV21klPyG1F75nvwmv9Vk6cCrXc8oT2tq9ROC5b8QWHHuagwK1TkE
+url_dictionary: https://lingvanex.com/dictionary/
+url_main_page: https://lingvanex.com

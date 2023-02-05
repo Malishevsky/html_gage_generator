@@ -1,0 +1,10 @@
+# количеств потоков
+thread_count: 3
+#с какого индекса начинать парсинг и каким закончить.
+# всего около 109000 . max - пройти все слова
+start_index: 0
+finish_index: 30
+#word_list это json с ключем list в котором лежит список слов
+word_list_path: jsons/word_list.json
+#words meaning это json с описанием слов
+words_meaning_path: jsons/words_meaning.json
